@@ -1,0 +1,202 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Sansita Swashed', cursive;
+}
+.wrapper{
+    height: 220vh;
+    width: 100vw;
+}
+.nav{
+    height: 50px;
+    width: 100vw;
+    background-color: black;
+    
+    
+    
+}
+.nav ul {
+    display: flex;
+    font-size: 20px;
+
+    
+}
+.nav ul li{
+  
+    list-style: none;
+    margin: 15px 7px;
+  
+
+    
+}
+
+.nav ul li a{
+    text-decoration: none;
+   
+    color: white;
+    
+    border-radius: 5px;
+    margin: 15px 7px;
+    
+    padding: 10px 30px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.nav ul li a:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+.img{
+   
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../img/bg22.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.img::before{
+    
+    position: absolute;
+    content: "Anil Food Services";
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+    letter-spacing: 1.5px;
+    animation: anil 5s infinite;
+
+}
+@keyframes anil {
+    0%{
+        color: red;
+    }
+    25%{
+        color: orange;
+    }
+    50%{
+        color:blueviolet;
+    }
+    75%{
+        color:blue;
+    }
+    100%{
+        color: chartreuse;
+    }
+
+
+}
+.section{
+    display: flex;
+}
+.section1{
+    border: 1px solid red; 
+    margin-top: 8px;
+    padding: 20px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    margin-left: 10px;
+   background-image: url("/img/3img.jpeg");
+    color: white;
+}
+p{
+    margin-top: 4px;
+}
+.box{
+    display: flex;
+}
+.box1{
+    border: 1px solid red;
+    height: 215px;
+    width: 80vw;
+   padding: 5px;
+   margin-top: 10px;
+   margin-left: 10px;
+   background-image: url("/img/3img.jpeg");
+   color: white;
+   line-height:  25px;
+   letter-spacing: 1px;
+   
+   
+
+
+}
+
+h3{
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.box2{
+    width: 20vw;
+   border: 1px solid red;
+   display: flex;
+   flex-direction: column;
+   margin-top: 10px;
+   background-color: yellowgreen;
+   text-align: center;
+
+
+}
+.box2 li{
+    text-decoration: none;
+    list-style: none;
+    
+}
+.box2 li a{
+    list-style: none;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    color: black;
+
+}
+.gallery{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+    margin-top: 5px;
+    text-transform: uppercase;
+
+}
+.imgcontainer{
+    display: flex;
+}
+.image1{
+    display: flex;
+    width: 25vw;
+    height: 350px;
+    border: 1px solid red;
+    margin-top: 10px;
+   
+
+}
+#gi1{
+    background-image: url("/img/food-712667__340.webp");
+}
+#gi2{
+    background-image: url("/img/pizza-3007395__340.webp");
+}
+#gi3{
+    background-image: url(/img/foodora-3402507__340.webp);
+}
+#gi4{
+    background-image: url("/img/bg1.jpg");
+
+}
+.copy{
+    width: 100vw;
+    height: 40px;
+    background-color: darkslategray;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
